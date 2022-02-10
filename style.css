@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.space{
+    background-image: url("space.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.planet-area{
+    height: 500px;
+    width: 40vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    float: left;
+}
+
+.planet{
+    position: absolute;
+    width: 65%;
+    bottom: 0;
+}
+
+.rocket{
+    position: relative;
+    width: 23%;
+    left: 241px;
+    top: 338px;
+    transform: rotateZ(30deg);
+}
+
+.control-panel{
+    width: 500px;
+    height: 397px;
+    position: relative;
+    float: right;
+    top: 20%;
+    right: 7%;
+    border-radius: 20px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(149,137,110,1) 100%);
+}
+
+.control-panel__inner{
+    margin: 8px;
+    background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px, #282828;
+    background-size:16px 16px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.input-pass{
+    width: 250px;
+    height: 30px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.ok-btn{
+    width: 50px;
+    height: 35px;
+    font-size: 20px;
+    background: yellow;
+    border-radius: 10px;
+}
+
+
+
+.check-buttons{
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    left: -22px;
+    top: 20px;
+}
+
+.check-btn{
+    flex-grow: 1;
+}
+
+
+.levers{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.range-btn{
+    flex-grow: 1;
+    width: 50px;
+    height: 80px;
+    margin-top:-40px;
+    padding: 0;
+    transform-origin: 75px 75px;
+    transform: rotate(-90deg);
+}
+
+.launch-btn{
+    width: 120px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
